@@ -1,0 +1,115 @@
+<Doctype html>
+    <head>
+        <style>
+            body{
+                /* background-color: aquamarine; */
+            }
+        </style>
+    </head>
+<body>
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <table border="1" height="200">
+        <tr>
+            <th>First name:-</th>
+           <td><input type="text" name="name" id="name" placeholder="Enter first name"></td>
+        </tr>
+
+        <tr>
+            <th>Last name:-</th>
+           <td><input type="text" name="name" id="name" placeholder="Enter last name"></td>
+        </tr>
+
+        <tr>
+            <th>Gender:-</th>
+            <td><input type="radio" name="radio" id="radio" value="Male">Male
+            <input type="radio" name="radio" id="radio" value="female">Female</td>
+        </tr>
+
+        <tr>
+            <th>Age:-</th>
+           <td><input type="text" name="age" id="age" placeholder="Enter your age"></td>
+        </tr>
+
+        <tr>
+            <th>Date of birth:-</th>
+            <td><input type="datetime-local" name="date" id="date" placeholder="dd-mm-yyyy"></td>
+        </tr>
+        
+        <tr>
+            <th>Email address:-</th>
+           <td><input type="text" name="email" id="email" placeholder="Enter your Email"></td>
+        </tr>
+
+        <tr>
+            <th>Password:-</th>
+           <td><input type="password" name="password" id="password" placeholder="Enter your password min 8 characters"></td>
+        </tr>
+
+        <tr>
+            <th>Comfirm password:-</th>
+           <td><input type="password" name="password" id="password" placeholder="Confirm password"></td>
+        </tr>
+
+        <tr>
+            <th>Phone number:-</th>
+           <td><input type="number" name="number" id="number" placeholder="Enter your phone number"></td>
+        </tr>
+
+        <tr>
+            <th>Address:-</th>
+           <td><input type="address" name="address" id="address" placeholder="Enter your address">
+           <!-- <textarea name="address" rows="5" cols="40"></textarea> -->
+        </td>
+        </tr>
+
+        <tr>
+             <th>State:-</th>
+             <td>
+                <select name="state" id="state">
+                <option value="placeholder="--select your state-->--select your state--</option>
+                <option value="rajsthan">rajsthan</option>
+                <option value="gujrat">gujrat</option>
+                <option value="maharastra">maharastra</option>
+                <option value="mp">mp</option>
+                <option value="kacch">kacch</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Pin code:-</th>
+           <td><input type="number" name="number" id="number" placeholder="Enter your pin code"></td>
+        </tr>
+
+        <tr>
+            <th>Hobbies:-</th>
+            <td><input type="checkbox" name="Hobbies" id="Hobbies" value="music">Music
+             <input type="checkbox" name="Hobbies" id="Hobbies" value="movies">Movies
+             <input type="checkbox" name="Hobbies" id="Hobbies" value="sports">Sports
+             <input type="checkbox" name="Hobbies" id="Hobbies" value="Travel">Travel
+            </td>
+        </tr>
+
+        <tr>
+            <th>Upload photo:-</th>
+            <td>
+                <input type="file" name="image" id="image" placeholder="choose iamge">
+            </td>
+        </tr>
+
+     </table>
+
+     <tr>
+        <td><input type="checkbox" name="text" id="text">i hereby declare that the above information provided is true and correct.</td>
+    </tr><br>
+
+    <tr>
+        <td><input type="checkbox" name="text" id="text">i'm not a robot</td>
+    </tr><br>
+
+     <tr>
+         <button><input type="button" name="buttion" id="button">Register</buttion>
+         <button><input type="button" name="buttion" id="button">Reset</buttion>
+    </tr>
+</body>
+</html>
